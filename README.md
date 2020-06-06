@@ -1,6 +1,6 @@
 # QX (or QueryX) Is a PHP Web Framework
-This Framework processing in MVC Pattern
-Then all code look likes beauty
+This Framework processor in MVC Pattern 
+so all code look likes beautiful code
 
 And this version is "Beta 1", I tries to develope and did it better
 (Sorry I can't used English to good, but I can explain a little bit)
