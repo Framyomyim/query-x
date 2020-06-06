@@ -9,6 +9,7 @@ It seems like a basic, actually it's very basic for use.
 
 ## Template for use
 My framework have template Controller and Model for you, It's in folder `system/template/..`
+
 __Example: Controller__
 ```php
 <?php
@@ -34,5 +35,30 @@ __Example: Controller__
 
     }
 
+?>
+```
+
+## I'll tell you about View
+In Framework I used Blade Template (Standalone Version). You can see how it do at below
+
+__Example__
+```php
+<?php 
+
+    /*
+        In QueryX\Support\Loader;
+        It in have method for call
+        1. view('view_name', ['var' => 'data'])
+        2. controller('controller@method')
+        3. model('model')
+        4. database()->getInstance()
+        5. core() and helper(), when you call core or helper you can call ->get(boolean) in back
+                                                                            true = will require in app/core, app/helper
+                                                                            false = will require in system/core, system/helper
+    */
+    use QueryX\Support\Loader;
+    
+    # I show you how it do
+    echo Loader::view('folder.subfolder.view');
 ?>
 ```
