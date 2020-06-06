@@ -62,3 +62,12 @@ __Example__
     echo Loader::view('folder.subfolder.view');
 ?>
 ```
+
+# Credit PHP Libraries
+Database - [catfan/medoo](https://packagist.org/packages/catfan/medoo)
+Router - [bramus/router](https://packagist.org/packages/bramus/router)
+Blade Template [jenssegers/blade](https://packagist.org/packages/jenssegers/blade)
+
+# Contact me
+Facebook - [Kittichai Mala-in](https://facebook.com/frammhe)
+Instagram - [framy.malain](https://instagram.com/framy.malain)
