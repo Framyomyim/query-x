@@ -1,4 +1,4 @@
-# QX (or QueryX) Is a PHP Web Framework
+# QueryX Is a PHP Web Framework
 This Framework processor in MVC Pattern 
 so all code look likes beautiful code
 
@@ -65,9 +65,12 @@ __Example__
 
 # Credit PHP Libraries
 Database - [catfan/medoo](https://packagist.org/packages/catfan/medoo)
+
 Router - [bramus/router](https://packagist.org/packages/bramus/router)
+
 Blade Template [jenssegers/blade](https://packagist.org/packages/jenssegers/blade)
 
 # Contact me
 Facebook - [Kittichai Mala-in](https://facebook.com/frammhe)
+
 Instagram - [framy.malain](https://instagram.com/framy.malain)
