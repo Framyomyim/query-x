@@ -9,3 +9,30 @@ It seems like a basic, actually it's very basic for use.
 
 ## Template for use
 My framework have template Controller and Model for you, It's in folder `system/template/..`
+__Example: Controller__
+```php
+<?php
+
+    /**
+     * Controller
+     * Created by QueryX Command
+     */
+    use QueryX\Common\Controller;
+    use QueryX\Support\Loader;
+
+    class %className% extends Controller {
+
+        function __construct($request) {
+            parent::__construct($request);
+            # ...
+        }
+
+        // Your code
+        public function index() {
+            # ...
+        }
+
+    }
+
+?>
+```
