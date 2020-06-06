@@ -1,0 +1,24 @@
+<?php
+
+    /**
+     * Model
+     * Created by QueryX Command
+     */
+    use QueryX\Common\Model;
+    use QueryX\Support\Loader;
+
+    class %className% extends Model {
+
+        private $db = [];
+        function __construct() {
+            $this->db = Loader::database()->getInstance();
+        }
+
+        // Your code
+        public function starter() {
+            # ...
+        }
+
+    }
+
+?>
